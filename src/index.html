@@ -12,14 +12,21 @@
   </head>
   <body>
     <div id="circularcursor"></div>
+    <div class="lines">
+        <!-- <div class="line"></div> -->
+        <div class="line"></div>
+        <!-- <div class="line"></div> -->
+    </div>
     <div class="header" id="header">
+        <div class="header_bg">
         <img class="logo" src="../src/img/logo.png" alt="">
         <div class="header-right">
-            <a class="active" href="#home">Strony Internetowe</a>
-            <a href="#contact">Kampanie Reklamowe</a>
-            <a href="#about">Projektowanie Graficzne</a>
-            <a href="#about">Media Społecznościowe</a>
+            <a class="active" href="#strony">Strony Internetowe</a>
+            <a href="#kampanie">Kampanie Reklamowe</a>
+            <a href="#projektowanie">Projektowanie Graficzne</a>
+            <a href="#media">Media Społecznościowe</a>
         </div>
+    </div>
     </div>
     <div class="sticky-img">
         <img class="sticky-image top-left" src="/img/Blur.png" alt="Top Left Image">
@@ -55,12 +62,18 @@
         <img src="img/client4.png" alt="">
     </div>
 
-    <div class="etap1">
+    <div class="etap1" id="strony">
         <span class="inline-span">
             Zobacz jak działamy
         </span>
         <img src="img/etap1.png" alt="">
-
+        <div class="title">
+            <h1>Wyjątkowe dla Twojego sukcesu</h1>
+            <span>
+            Niezależnie od tego, czy potrzebujesz responsywnej strony wizytówki, sklepu internetowego czy platformy interaktywnej, stworzymy dla Ciebie unikalny projekt, 
+            który wyróżni Cię na tle konkurencji. Nasza misja to dostarczenie Ci narzędzi, które pomogą Ci osiągnąć sukces online.</span>
+        </div>
+        
         <div class="zalety">
             <div class="div1 element">
                 <h2>Landing Pages</h2>
@@ -71,6 +84,7 @@
                 <span>Zacznij sprzedawać swoje produkty online. Stworzymy szybki i przejrzysty sklep przyjazny dla Twoich klientów.</span>
             </div>
             <div class="div3 element">
+                <img src="img/gif/server-1.gif" alt="">
                 <h2>Hosting</h2>
                 <span>Umieścimy Twoją stronę na serwerach jednego z naszych partnerów - nie musisz zajmować się tym samodzielnie.</span>
             </div>
@@ -93,5 +107,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     <script src="../jquery-3.7.0.min.js"></script>
     <script src="/js/_animated-heading.js"></script>
+    <script src="/js/_scroll-into-view.js"></script>
   </body>
 </html>

@@ -23,12 +23,14 @@ $(window).scroll(function() {
     
     if (currentScroll > 10) {
         $header.css({
-            'backdrop-filter': 'saturate(180%) blur(5px)'
+            'backdrop-filter': 'blur(5px)'
         });
+        $header.addClass('header-active');
     } else {
         $header.css({
             'backdrop-filter': 'none'
         });
+        $header.removeClass('header-active');
     }
     
     prevScroll = currentScroll;
